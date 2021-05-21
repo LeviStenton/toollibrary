@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\levis\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\levis\\.nuget\\packages"
+    ]
+  }
+}

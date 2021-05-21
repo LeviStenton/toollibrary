@@ -1,0 +1,26 @@
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.csprojAssemblyReference.cache
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.AssemblyInfoInputs.cache
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.AssemblyInfo.cs
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.exe
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.deps.json
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.runtimeconfig.json
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.runtimeconfig.dev.json
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.dll
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.pdb
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.dll
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.pdb
+C:\Users\levis\Desktop\Dev\C# Projects\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.genruntimeconfig.cache
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.exe
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.deps.json
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.runtimeconfig.json
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.runtimeconfig.dev.json
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.dll
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\bin\Debug\netcoreapp3.1\CAB301-Assignment.pdb
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.csprojAssemblyReference.cache
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.AssemblyInfoInputs.cache
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.AssemblyInfo.cs
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.dll
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.pdb
+C:\Users\levis\Desktop\Dev\C#\CAB301\CAB301-Assignment\CAB301-Assignment\obj\Debug\netcoreapp3.1\CAB301-Assignment.genruntimeconfig.cache
