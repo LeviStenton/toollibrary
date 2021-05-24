@@ -267,26 +267,7 @@ namespace CAB301_Assignment
                 // Sort borrowedTools by most frequently borrowed
                 InsertionSort(borrowedTools);
                 Tool[] topThree = new Tool[3];
-                // Filter out any duplicates in borrowed tools and the top three to topThree
-                for (int i = 0; i < topThree.Length; ++i)
-                    for (int j = 0; j < borrowedTools.Length; ++j)
-                    {
-                        if (i == 0)
-                        {
-                            topThree[i] = borrowedTools[j];
-                            break;
-                        }
-                        else if (i == 1 && topThree[i] == null && topThree[0] != null && !topThree[0].Name.Equals(borrowedTools[j].Name))
-                        {
-                            topThree[i] = borrowedTools[j];
-                            break;
-                        }
-                        else if (i == 2 && topThree[i] == null && topThree[0] != null && topThree[1] != null && !topThree[1].Name.Equals(borrowedTools[j].Name) && !topThree[0].Name.Equals(borrowedTools[j].Name))
-                        {
-                            topThree[i] = borrowedTools[j];
-                            break;
-                        }
-                    }
+                TopThreeSort(topThree, borrowedTools);
                 Console.WriteLine("The top 3 most frequently borrowed tools:");
                 for (int i = 0; i < topThree.Length; ++i)
                 {
@@ -531,11 +512,12 @@ namespace CAB301_Assignment
             Member[] currentMembers = members.toArray();
             if (displayMembers(currentMembers))
             {
-                Console.Write("Enter the number corresponing to the member you wish to remove: ");
-                int memberNum = Convert.ToInt16(Console.ReadLine());
-                Member chosenMember = currentMembers[memberNum - 1];
+                Console.Write("Enter the number corresponing to the member you wish to remove: ");                
                 try
                 {
+                    int memberNum = Convert.ToInt16(Console.ReadLine());
+                    Member chosenMember = currentMembers[memberNum - 1];
+                    Console.WriteLine("\nRemoved '" + chosenMember.FirstName + "' successfully.");
                     delete(chosenMember);
                 }
                 catch (Exception)
@@ -619,6 +601,7 @@ namespace CAB301_Assignment
         void MemberLogin()
         {
             Member[] currentMembers = members.toArray();
+            bool loginValid = false;
             Console.WriteLine("Member Login");
             Console.Write("Enter your first name: ");
             string firstName = Console.ReadLine();
@@ -627,11 +610,15 @@ namespace CAB301_Assignment
             Console.Write("Enter your pin: ");
             string pin = Console.ReadLine();
             Console.WriteLine();
-            for(int i = 0; i < currentMembers.Length; ++i)
+            for (int i = 0; i < currentMembers.Length; ++i)
                 if (currentMembers[i].FirstName == firstName && currentMembers[i].LastName == lastName && currentMembers[i].PIN == pin)
+                {
                     currentLoggedMember = currentMembers[i];
-            if (currentLoggedMember == null)
-            {
+                    loginValid = true;
+                }
+                    
+            if (!loginValid)
+            {                
                 Console.WriteLine("Invalid login details.\n");
                 MainMenu();
             }
@@ -946,6 +933,30 @@ namespace CAB301_Assignment
                 }
                 A[j + 1] = v;
             }
+        }
+
+        private static void TopThreeSort(Tool[] topThree, Tool[] borrowedTools)
+        {
+            // Filter out any duplicates in borrowed tools and the top three to topThree
+            for (int i = 0; i < topThree.Length; ++i)
+                for (int j = 0; j < borrowedTools.Length; ++j)
+                {
+                    if (i == 0)
+                    {
+                        topThree[i] = borrowedTools[j];
+                        break;
+                    }
+                    else if (i == 1 && topThree[i] == null && topThree[0] != null && !topThree[0].Name.Equals(borrowedTools[j].Name))
+                    {
+                        topThree[i] = borrowedTools[j];
+                        break;
+                    }
+                    else if (i == 2 && topThree[i] == null && topThree[0] != null && topThree[1] != null && !topThree[1].Name.Equals(borrowedTools[j].Name) && !topThree[0].Name.Equals(borrowedTools[j].Name))
+                    {
+                        topThree[i] = borrowedTools[j];
+                        break;
+                    }
+                }
         }
     }
 }
